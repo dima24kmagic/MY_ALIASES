@@ -25,6 +25,11 @@ function COPY_SSH() {
 # COMPLETE: Install Git
 # set git user
 # COMPLETE: Create floder for programming in home
+# TODO: install and configure my aliases and functions
+# TODO: Install Telegram
+# TODO: Install Skype
+# TODO: Install Etcher
+# TODO: Install GParted
 
 
 function OS_INIT() {
