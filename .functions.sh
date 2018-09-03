@@ -25,7 +25,7 @@ function COPY_SSH() {
 # COMPLETE: Install Git
 # set git user
 # COMPLETE: Create floder for programming in home
-# TODO: install and configure my aliases and functions
+# COMPLETE: install and configure my aliases and functions
 # TODO: Install Telegram
 # TODO: Install Skype
 # TODO: Install Etcher
@@ -96,6 +96,12 @@ function OS_INIT() {
     # export GOPATH=$HOME/programming/go/src
     # export PATH=$PATH:$GOROOT/bin
     # source ~/.profile
+
+    # STEP: 12) install and configure my aliases and functions
+    # cd $HOME/programming
+    # git clone https://github.com/dima24kmagic/MY_ALIASES.git
+    # echo "source $HOME/programming/MY_ALIASES/.aliases.sh" >> ~/.zshrc
+    # echo "source $HOME/programming/MY_ALIASES/.functions.sh" >> ~/.zshrc
 
 }
 
