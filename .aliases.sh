@@ -1,5 +1,5 @@
 # Show ip of all devices connected to my network
-alias SCANNET='nmap -sP 192.168.1.0/24'
+alias SCANNET='nmap -sP 192.168.1.0/24 | grep Nmap'
 # Show files permissions
 alias ll='ls -ltr'
 # Clear screen
