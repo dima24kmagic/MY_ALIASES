@@ -12,6 +12,12 @@ function COPY_SSH() {
     ssh-copy-id $@
 }
 
+# GO TO MYSQL CONSOLE
+# First arg is username
+function MYSQL() {
+    mysql -u $1 -p
+}
+
 # :* OS_INITIAL_SETUP *:
 # Use that function to install following software --> 
 # COMPLETE: NodeJS 10
