@@ -14,3 +14,5 @@ alias openf='nautilus ./'
 alias courses='cd $HOME/COURSES'
 # Go to golang files
 alias goprog='cd $HOME/programming/go/src/github.com/dima24kmagic'
+# Open up Idea in a current directory with detached state
+alias IDEA='nohup idea ./ &'
