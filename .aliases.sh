@@ -16,3 +16,5 @@ alias courses='cd $HOME/COURSES'
 alias goprog='cd $HOME/programming/go/src/github.com/dima24kmagic'
 # Open up Idea in a current directory with detached state
 alias IDEA='nohup idea ./ &'
+# Open up Android Studio
+alias ANDROID='cd /opt/android-studio/bin/ && nohup ./studio.sh &'
