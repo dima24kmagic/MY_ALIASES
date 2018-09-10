@@ -36,6 +36,8 @@ function MYSQL() {
 # TODO: Install Skype
 # TODO: Install Etcher
 # TODO: Install GParted
+# TODO: Install Java
+# TODO: Install Android Studio
 
 
 function OS_INIT() {
