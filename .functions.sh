@@ -38,7 +38,7 @@ function MYSQL() {
 # TODO: Install GParted
 # TODO: Install Java
 # TODO: Install Android Studio
-# TODO: Install UTorrent
+# TODO: Install Torrent Client
 
 
 function OS_INIT() {
