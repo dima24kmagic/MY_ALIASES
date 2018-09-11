@@ -39,8 +39,8 @@ function MYSQL() {
 # TODO: Install Java
 # TODO: Install Android Studio
 # TODO: Install Torrent Client
-
-
+# TODO: sudo go - commend not found! Handle it
+# TODO: Install My Alliases
 function OS_INIT() {
     # STEP: 1) start from upgrading system
     # sudo apt-get update
@@ -109,8 +109,8 @@ function OS_INIT() {
     # STEP: 12) install and configure my aliases and functions
     # cd $HOME/programming
     # git clone https://github.com/dima24kmagic/MY_ALIASES.git
-    # echo "source $HOME/programming/MY_ALIASES/.aliases.sh" >> ~/.zshrc
-    # echo "source $HOME/programming/MY_ALIASES/.functions.sh" >> ~/.zshrc
+    # echo 'source $HOME/programming/MY_ALIASES/.aliases.sh' >> ~/.zshrc
+    # echo 'source $HOME/programming/MY_ALIASES/.functions.sh' >> ~/.zshrc
 
     # STEP: 13) Install skype
     # wget https://repo.skype.com/latest/skypeforlinux-64.deb
