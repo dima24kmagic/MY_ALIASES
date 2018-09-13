@@ -41,6 +41,7 @@ function MYSQL() {
 # TODO: Install Torrent Client
 # TODO: sudo go - commend not found! Handle it
 # TODO: Install My Alliases
+# TODO: Install Blender
 function OS_INIT() {
     # STEP: 1) start from upgrading system
     # sudo apt-get update
