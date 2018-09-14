@@ -42,6 +42,8 @@ function MYSQL() {
 # TODO: sudo go - commend not found! Handle it
 # TODO: Install My Alliases
 # TODO: Install Blender
+# TODO: Install ESLint with npm globally
+# TODO: Install Prettier with npm globally
 function OS_INIT() {
     # STEP: 1) start from upgrading system
     # sudo apt-get update
