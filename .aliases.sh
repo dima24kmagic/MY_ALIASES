@@ -18,3 +18,5 @@ alias goprog='cd $HOME/programming/go/src/github.com/dima24kmagic'
 alias IDEA='nohup idea ./ &'
 # Open up Android Studio
 alias ANDROID='cd /opt/android-studio/bin/ && ./studio.sh'
+# Show RAM info
+alias RAM='sudo dmidecode --type 17'
