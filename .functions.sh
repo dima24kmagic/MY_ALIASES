@@ -45,6 +45,7 @@ function MYSQL() {
 # TODO: Install ESLint with npm globally
 # TODO: Install Prettier with npm globally
 # TODO: Setup Touchegg
+# TODO: Install QBit torrent client
 function OS_INIT() {
     # STEP: 1) start from upgrading system
     # sudo apt-get update
