@@ -27,9 +27,9 @@ function MYSQL() {
 # COMPLETE: download *NOT INSTALL* Intellij Idea Ultimate
 # COMPLETE: Golang
 # COMPLETE: Google-chrome
-# Generate ssh keys
+# TODO: Generate ssh keys
 # COMPLETE: Install Git
-# set git user
+# TODO: set git user
 # COMPLETE: Create floder for programming in home
 # COMPLETE: install and configure my aliases and functions
 # TODO: Install Telegram
@@ -44,6 +44,7 @@ function MYSQL() {
 # TODO: Install Blender
 # TODO: Install ESLint with npm globally
 # TODO: Install Prettier with npm globally
+# TODO: Setup Touchegg
 function OS_INIT() {
     # STEP: 1) start from upgrading system
     # sudo apt-get update

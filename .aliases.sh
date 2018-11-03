@@ -20,4 +20,5 @@ alias IDEA='nohup idea ./ &'
 alias ANDROID='cd /opt/android-studio/bin/ && ./studio.sh'
 # Show RAM info
 alias RAM='sudo dmidecode --type 17'
+# MYIP adress
 alias MYIP='ifconfig | grep "inet addr"'
