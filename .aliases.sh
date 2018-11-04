@@ -22,3 +22,7 @@ alias ANDROID='cd /opt/android-studio/bin/ && ./studio.sh'
 alias RAM='sudo dmidecode --type 17'
 # MYIP adress
 alias MYIP='ifconfig | grep "inet addr"'
+# Dir size
+alias ds='du -hs ./'
+# Dir file size
+alias dfs='du -h ./'
