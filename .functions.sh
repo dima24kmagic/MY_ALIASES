@@ -48,6 +48,7 @@ function MYSQL() {
 # TODO: Install QBit torrent client
 # TODO: Install Yarn
 # TODO: Config git user
+# TODO: Install android adb drivers
 function OS_INIT() {
     # STEP: 1) start from upgrading system
     # sudo apt-get update
@@ -131,5 +132,7 @@ function OS_INIT() {
     # STEP: 15) generate ssh
     # ssh-keygen -t rsa -b 4096 -C "vajnoe-dima@mail.ru"
 
+    # STEP: 16) install android adb drivers
+    # apt-get install android-tools-adb
 }
 
