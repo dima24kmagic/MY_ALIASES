@@ -46,6 +46,8 @@ function MYSQL() {
 # TODO: Install Prettier with npm globally
 # TODO: Setup Touchegg
 # TODO: Install QBit torrent client
+# TODO: Install Yarn
+# TODO: Config git user
 function OS_INIT() {
     # STEP: 1) start from upgrading system
     # sudo apt-get update
@@ -103,7 +105,7 @@ function OS_INIT() {
 
     # STEP: 11) Install Golang 1.10.1 into programming folder, set Gopath and Goroot
     # cd ~/programming
-    # sudo curl -O https://storage.googleapis.com/golang/go1.9.1.linux-amd64.tar.gz
+    # sudo curl -O https://storage.googleapis.com/golang/go1.10.1.linux-amd64.tar.gz
     # sudo tar -xvf go1.10.1.linux-amd64.tar.gz
     # rm go1.10.1.linux-amd64.tar.gz
     # export GOROOT=$HOME/programming/go
@@ -121,5 +123,9 @@ function OS_INIT() {
     # wget https://repo.skype.com/latest/skypeforlinux-64.deb
     # sudo dpkg -i skypeforlinux-64.deb
     # sudo apt install -f
+
+    # STEP: 14) config git
+    # git config --global user.email "you@example.com"
+    # git config --global user.name "Your Name"
 }
 
