@@ -127,5 +127,9 @@ function OS_INIT() {
     # STEP: 14) config git
     # git config --global user.email "you@example.com"
     # git config --global user.name "Your Name"
+
+    # STEP: 15) generate ssh
+    # ssh-keygen -t rsa -b 4096 -C "vajnoe-dima@mail.ru"
+
 }
 
