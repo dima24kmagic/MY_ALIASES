@@ -18,6 +18,10 @@ function MYSQL() {
     mysql -u $1 -p
 }
 
+function untar() {
+    tar xvf $1
+}
+
 # :* OS_INITIAL_SETUP *:
 # Use that function to install following software --> 
 # COMPLETE: NodeJS 10
@@ -32,7 +36,7 @@ function MYSQL() {
 # TODO: set git user
 # COMPLETE: Create floder for programming in home
 # COMPLETE: install and configure my aliases and functions
-# TODO: Install Telegram
+# COMPLETE: Install Telegram
 # TODO: Install Skype
 # TODO: Install Etcher
 # TODO: Install GParted
@@ -49,6 +53,8 @@ function MYSQL() {
 # TODO: Install Yarn
 # TODO: Config git user
 # TODO: Install android adb drivers
+# TODO: Install create-react-app globally
+# TODO: Install create-react-native-app globally
 function OS_INIT() {
     # STEP: 1) start from upgrading system
     # sudo apt-get update
@@ -109,9 +115,9 @@ function OS_INIT() {
     # sudo curl -O https://storage.googleapis.com/golang/go1.10.1.linux-amd64.tar.gz
     # sudo tar -xvf go1.10.1.linux-amd64.tar.gz
     # rm go1.10.1.linux-amd64.tar.gz
-    # export GOROOT=$HOME/programming/go
-    # export GOPATH=$HOME/programming/go/src
-    # export PATH=$PATH:$GOROOT/bin
+    # echo "GOROOT=$HOME/programming/go" >> ~/.profile
+    # echo "GOPATH=$HOME/programming/go/src" >> ~/.profile
+    # echo "PATH=$PATH:$GOROOT/bin" >> ~/.profile
     # source ~/.profile
 
     # STEP: 12) install and configure my aliases and functions
@@ -134,5 +140,15 @@ function OS_INIT() {
 
     # STEP: 16) install android adb drivers
     # apt-get install android-tools-adb
+
+    # STEP: 17) install Telegram
+    # cd ~/Downloads
+    # wget https//telegram.org/dl/desktop/linux
+    # untar tsetup.1.4.3.tar.xz
+    # sudo mv Telegram /opt/
+    # rm ~/Downloads/tsetup.1.4.3.tar.xz -rf
+
+    # STEP: 18) Install Gparted
+    # sudi apt-get install gparted
 }
 
