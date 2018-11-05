@@ -39,11 +39,11 @@ function untar() {
 # COMPLETE: Install Telegram
 # TODO: Install Skype
 # TODO: Install Etcher
-# TODO: Install GParted
+# COMPLETE: Install GParted
 # TODO: Install Java
 # TODO: Install Android Studio
 # TODO: Install Torrent Client
-# TODO: sudo go - commend not found! Handle it
+# TODO: sudo go - command not found! Handle it
 # TODO: Install My Alliases
 # TODO: Install Blender
 # TODO: Install ESLint with npm globally
@@ -149,6 +149,13 @@ function OS_INIT() {
     # rm ~/Downloads/tsetup.1.4.3.tar.xz -rf
 
     # STEP: 18) Install Gparted
-    # sudi apt-get install gparted
+    # sudo apt-get install gparted
+    
+    # STEP: 19) Install Yarn
+    # curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+    # echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+    # sudo apt-get update && sudo apt-get install yarn
+    # sudo apt-get install --no-install-recommends yarn
+
 }
 
