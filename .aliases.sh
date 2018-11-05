@@ -11,7 +11,8 @@ alias prog='cd $HOME/programming'
 # Open current folder
 alias openf='nautilus ./'
 # Open courses folder
-alias courses='cd $HOME/COURSES'
+# alias courses='cd $HOME/COURSES'
+alias courses='hard && cd COURSES'
 # Go to golang files
 alias goprog='cd $HOME/programming/go/src/github.com/dima24kmagic'
 # Open up Idea in a current directory with detached state
@@ -26,3 +27,5 @@ alias MYIP='ifconfig | grep "inet addr"'
 alias ds='du -hs ./'
 # Dir file size
 alias dfs='du -h ./'
+# Go to hard drive
+alias hard='cd /media/dima/4560-79E4'

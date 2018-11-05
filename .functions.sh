@@ -31,9 +31,8 @@ function untar() {
 # COMPLETE: download *NOT INSTALL* Intellij Idea Ultimate
 # COMPLETE: Golang
 # COMPLETE: Google-chrome
-# TODO: Generate ssh keys
+# COMPLETE: Generate ssh keys
 # COMPLETE: Install Git
-# TODO: set git user
 # COMPLETE: Create floder for programming in home
 # COMPLETE: install and configure my aliases and functions
 # COMPLETE: Install Telegram
@@ -42,19 +41,19 @@ function untar() {
 # COMPLETE: Install GParted
 # TODO: Install Java
 # TODO: Install Android Studio
-# TODO: Install Torrent Client
+# COMPLETE: Install Torrent Client (Qbit)
 # TODO: sudo go - command not found! Handle it
 # TODO: Install My Alliases
 # TODO: Install Blender
 # TODO: Install ESLint with npm globally
 # TODO: Install Prettier with npm globally
 # TODO: Setup Touchegg
-# TODO: Install QBit torrent client
-# TODO: Install Yarn
-# TODO: Config git user
-# TODO: Install android adb drivers
-# TODO: Install create-react-app globally
-# TODO: Install create-react-native-app globally
+# COMPLETE: Install Yarn
+# COMPLETE: Config git user
+# COMPLETE: Install android adb drivers
+# COMPLETE: Install create-react-app globally
+# COMPLETE: Install create-react-native-app globally
+# COMPLETE: Install vlc media player
 function OS_INIT() {
     # STEP: 1) start from upgrading system
     # sudo apt-get update
@@ -162,6 +161,14 @@ function OS_INIT() {
     # sudo apt-get update
     # sudo apt-get install qbittorrent
 
+    # STEP: 21) Install create-react-app create-react-native-app 
+    # sudo npm isntall -g create-react-native-app && create-react-app
 
+    # STEP: Config Git User
+    # git config --global user.name = "Dima Baranov"
+    # git config --global user.email = "vajnoe-dima@mail.ru"
+
+    # STEP: Install VLC Media Player
+    # sudo apt-get install vlc
 }
 
