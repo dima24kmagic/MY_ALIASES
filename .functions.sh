@@ -53,7 +53,7 @@ function untar() {
 # COMPLETE: Install android adb drivers
 # COMPLETE: Install create-react-app globally
 # COMPLETE: Install create-react-native-app globally
-# COMPLETE: Install vlc media player
+# COMPLETE: Install mpv media player
 function OS_INIT() {
     # STEP: 1) start from upgrading system
     # sudo apt-get update
