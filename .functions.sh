@@ -157,5 +157,11 @@ function OS_INIT() {
     # sudo apt-get update && sudo apt-get install yarn
     # sudo apt-get install --no-install-recommends yarn
 
+    # STEP: 20) Install Qbit Torrent
+    # sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable
+    # sudo apt-get update
+    # sudo apt-get install qbittorrent
+
+
 }
 
