@@ -169,6 +169,6 @@ function OS_INIT() {
     # git config --global user.email = "vajnoe-dima@mail.ru"
 
     # STEP: Install VLC Media Player
-    # sudo apt-get install vlc
+    # sudo apt-get install mpv
 }
 
