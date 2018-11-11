@@ -28,4 +28,8 @@ alias ds='du -hs ./'
 # Dir file size
 alias dfs='du -h ./'
 # Go to hard drive
-alias hard='cd /media/dima/4560-79E4'
+alias hard='cd /mnt/4560-79E4'
+# Show wifi
+alias show_wifi='sudo iw dev wlp2s0 scan | grep SSID'
+# Update system
+alias update-sys='sudo apt-get update && sudo apt-get upgrade'
