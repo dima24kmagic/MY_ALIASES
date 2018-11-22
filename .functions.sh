@@ -54,6 +54,7 @@ function untar() {
 # COMPLETE: Install create-react-app globally
 # COMPLETE: Install create-react-native-app globally
 # COMPLETE: Install mpv media player
+# COMPLETE: Install Discord
 function OS_INIT() {
     # STEP: 1) start from upgrading system
     # sudo apt-get update
@@ -170,5 +171,9 @@ function OS_INIT() {
 
     # STEP: Install VLC Media Player
     # sudo apt-get install mpv
+
+    # STEP: Install Discord
+    #  wget -O discord.deb "https://discordapp.com/api/download?platform=linux&format=deb"
+    # sudo dpkg -i ./discord.deb
 }
 
