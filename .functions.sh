@@ -55,6 +55,7 @@ function untar() {
 # COMPLETE: Install create-react-native-app globally
 # COMPLETE: Install mpv media player
 # COMPLETE: Install Discord
+# COMPLETE: Install Watchman
 function OS_INIT() {
     # STEP: 1) start from upgrading system
     # sudo apt-get update
@@ -179,5 +180,15 @@ function OS_INIT() {
     # STEP: Install Android Studio
     # sudo apt install openjdk-8-jre openjdk-8-jdk
     # sudo snap install android-studio --classic
+
+    # STEP: Install Watchman
+    # cd ~
+    # git clone https://github.com/facebook/watchman.git
+    # cd watchman/
+    # git checkout v4.9.0
+    # sudo apt-get install -y autoconf automake build-essential python-dev
+    # sudo apt-get install libssl-dev libcrypto++-dev
+    # ./autogen.sh
+    # ./configure
 }
 
