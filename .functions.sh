@@ -40,7 +40,7 @@ function untar() {
 # TODO: Install Etcher
 # COMPLETE: Install GParted
 # TODO: Install Java
-# TODO: Install Android Studio
+# COMPLETE: Install Android Studio
 # COMPLETE: Install Torrent Client (Qbit)
 # TODO: sudo go - command not found! Handle it
 # TODO: Install My Alliases
@@ -175,5 +175,9 @@ function OS_INIT() {
     # STEP: Install Discord
     #  wget -O discord.deb "https://discordapp.com/api/download?platform=linux&format=deb"
     # sudo dpkg -i ./discord.deb
+
+    # STEP: Install Android Studio
+    # sudo apt install openjdk-8-jre openjdk-8-jdk
+    # sudo snap install android-studio --classic
 }
 
