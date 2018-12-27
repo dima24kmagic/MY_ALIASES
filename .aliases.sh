@@ -18,7 +18,7 @@ alias goprog='cd $HOME/programming/go/src/github.com/dima24kmagic'
 # Open up Idea in a current directory with detached state
 alias IDEA='nohup idea ./ &'
 # Open up Android Studio
-alias ANDROID='cd /opt/android-studio/bin/ && ./studio.sh'
+alias ANDROID='android-studio'
 # Show RAM info
 alias RAM='sudo dmidecode --type 17'
 # MYIP adress
