@@ -28,7 +28,7 @@ alias ds='du -hs ./'
 # Dir file size
 alias dfs='du -h ./'
 # Go to hard drive
-alias hard='cd /mnt/4560-79E4'
+alias hard='cd /media/dima/360FCC5D58C95859'
 # Show wifi
 alias show_wifi='sudo iw dev wlp2s0 scan | grep SSID'
 # Update system
