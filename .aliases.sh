@@ -33,3 +33,5 @@ alias hard='cd /media/dima/360FCC5D58C95859'
 alias show_wifi='sudo iw dev wlp2s0 scan | grep SSID'
 # Update system
 alias update-sys='sudo apt-get update && sudo apt-get upgrade'
+# commit alias
+alias gc='git commit -am '
