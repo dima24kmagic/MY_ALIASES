@@ -35,3 +35,5 @@ alias show_wifi='sudo iw dev wlp2s0 scan | grep SSID'
 alias update-sys='sudo apt-get update && sudo apt-get upgrade'
 # commit alias
 alias gc='git commit -am '
+# Chage owner of kvm for android studio
+alias kvm='sudo chown dima:dima /dev/kvm'
