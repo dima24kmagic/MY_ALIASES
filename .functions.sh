@@ -18,6 +18,10 @@ function MYSQL() {
     mysql -u $1 -p
 }
 
+function killport() {
+    sudo kill $(sudo lsof -t -i:$1)
+}
+
 function untar() {
     tar xvf $1
 }
