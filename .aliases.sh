@@ -12,7 +12,7 @@ alias prog='cd $HOME/programming'
 alias openf='nautilus ./'
 # Open courses folder
 # alias courses='cd $HOME/COURSES'
-alias courses='hard && cd COURSES'
+alias courses='hard && cd ./Users/Дима/Desktop/Courses'
 # Go to golang files
 alias goprog='cd $HOME/programming/go/src/github.com/dima24kmagic'
 # Open up Idea in a current directory with detached state
@@ -28,7 +28,7 @@ alias ds='du -hs ./'
 # Dir file size
 alias dfs='du -h ./'
 # Go to hard drive
-alias hard='cd /mnt/360FCC5D58C95859'
+alias hard='cd /media/dima/1F29355B524E772A'
 # Show wifi
 alias show_wifi='sudo iw dev wlp2s0 scan | grep SSID'
 # Update system
@@ -37,3 +37,6 @@ alias update-sys='sudo apt-get update && sudo apt-get upgrade'
 alias gc='git commit -am '
 # Chage owner of kvm for android studio
 alias kvm='sudo chown dima:dima /dev/kvm'
+# upgrade system
+alias upgrade='sudo apt-get update && sudo apt-get upgrade'
+
