@@ -60,6 +60,7 @@ function untar() {
 # COMPLETE: Install mpv media player
 # COMPLETE: Install Discord
 # COMPLETE: Install Watchman
+# TODO: Configure multi touch for Ubuntu
 function OS_INIT() {
     # STEP: 1) start from upgrading system
     # sudo apt-get update
@@ -194,5 +195,30 @@ function OS_INIT() {
     # sudo apt-get install libssl-dev libcrypto++-dev
     # ./autogen.sh
     # ./configure
+
+    # STEP: Configure multi touch for Ubuntu
+    # Download dependencies
+    # sudo apt-get install xdotool
+    # sudo apt-get install libinput-tools
+
+    # Add user to a input group
+    # sudo gpasswd -a $USER input
+
+    # Change owner of an input events folder
+    # sudo chown dima:dima -R /dev/input/
+
+    # Download libinput from github.com
+    # cd ~
+    # git clone https://github.com/bulletmark/libinput-gestures.git
+    # cd libinput-gestures
+    # sudo ./libinput-gestures-setup install
+
+    # Config it
+    # libinput-gestures-setup autostart
+    # libinput-gestures-setup start
+    # ***************************************************************************** #
+    # ******************* FILE PATH FOR CONFIGURING GESTURES ********************** #
+    # ******************* ~/.config/libinput-gestures.conf ************************ #
+    # ***************************************************************************** #
 }
 
