@@ -18,6 +18,16 @@ function MYSQL() {
     mysql -u $1 -p
 }
 
+# zip file, $1 - filename
+function ZIP_FILE() {
+    zip "$1.zip" $1
+}
+
+# Zip folder, $1 - foldername
+function ZIP_DIR() {
+    zip -r "$1.zip" $1
+}
+
 function killport() {
     sudo kill $(sudo lsof -t -i:$1)
 }
