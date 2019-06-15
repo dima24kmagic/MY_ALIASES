@@ -202,7 +202,7 @@ function OS_INIT() {
     # cd watchman/
     # git checkout v4.9.0
     # sudo apt-get install -y autoconf automake build-essential python-dev
-    # sudo apt-get install libssl-dev libcrypto++-dev
+    # sudo apt-get install libssl-dev libcrypto++-dev libtool
     # ./autogen.sh
     # ./configure
 
