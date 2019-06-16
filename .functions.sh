@@ -222,6 +222,7 @@ function OS_INIT() {
     # git clone https://github.com/bulletmark/libinput-gestures.git
     # cd libinput-gestures
     # sudo ./libinput-gestures-setup install
+    # cp /etc/libinput-gestures.conf ~/.config/libinput-gestures.conf
 
     # Config it
     # libinput-gestures-setup autostart
