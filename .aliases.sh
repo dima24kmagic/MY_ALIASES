@@ -11,7 +11,9 @@ alias prog='cd $HOME/programming'
 # Open current folder
 alias openf='nautilus ./'
 # Open courses folder
-alias courses='hard && cd ./Users/Дима/Desktop/Courses'
+alias courses='cd ~/courses'
+# Go to dir with youtube content
+alias youtube='cd ~/youtube'
 # Go to golang files
 alias goprog='cd $HOME/programming/go/src/github.com/dima24kmagic'
 # Open up Idea in a current directory with detached state
@@ -26,8 +28,6 @@ alias MYIP='ifconfig | grep "inet addr"'
 alias ds='du -hs ./'
 # Dir file size
 alias dfs='du -h ./'
-# Go to hard drive
-alias hard='cd /mnt/1F29355B524E772A/'
 # Show wifi
 alias show_wifi='sudo iw dev wlp2s0 scan | grep SSID'
 # commit alias
