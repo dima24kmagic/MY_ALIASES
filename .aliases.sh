@@ -13,7 +13,7 @@ alias openf='nautilus ./'
 # Open courses folder
 alias courses='cd ~/courses'
 # Go to dir with youtube content
-alias youtube='cd ~/youtube'
+alias youtube='cd /mnt/1832042632040C06/Users/vajno/OneDrive/Рабочий\ стол/YouTube'
 # Go to golang files
 alias goprog='cd $HOME/programming/go/src/github.com/dima24kmagic'
 # Open up Idea in a current directory with detached state

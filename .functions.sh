@@ -231,5 +231,8 @@ function OS_INIT() {
     # ******************* FILE PATH FOR CONFIGURING GESTURES ********************** #
     # ******************* ~/.config/libinput-gestures.conf ************************ #
     # ***************************************************************************** #
+
+    # STEP: Make sure that you can use disk that used for windows
+    # https://www.tenforums.com/tutorials/4189-turn-off-fast-startup-windows-10-a.html
 }
 
