@@ -11,7 +11,7 @@ alias prog='cd $HOME/programming'
 # Open current folder
 alias openf='nautilus ./'
 # Open courses folder
-alias courses='cd ~/courses'
+alias courses='cd /mnt/1832042632040C06/Users/vajno/OneDrive/Рабочий\ стол/Courses'
 # Go to dir with youtube content
 alias youtube='cd /mnt/1832042632040C06/Users/vajno/OneDrive/Рабочий\ стол/YouTube'
 # Go to golang files
@@ -23,7 +23,7 @@ alias ANDROID='android-studio'
 # Show RAM info
 alias RAM='sudo dmidecode --type 17'
 # MYIP adress
-alias MYIP='ifconfig | grep "inet addr"'
+alias MYIP='ip address | grep "inet addr"'
 # Dir size
 alias ds='du -hs ./'
 # Dir file size
