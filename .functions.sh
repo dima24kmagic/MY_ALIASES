@@ -29,7 +29,7 @@ function ZIP_DIR() {
 }
 
 function killport() {
-    sudo kill $(sudo lsof -t -i:$1)
+    sudo fuser -n tcp -k $1
 }
 
 function untar() {
